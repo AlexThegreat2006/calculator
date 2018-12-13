@@ -21,7 +21,10 @@ var Calculator = {
 		document.getElementById("d").value += val;
 	},
 	e: function() {
-		// evaluate the equation
+		// evaluate the equatio
+
+
+		n
 		try {
 			this.display(eval(document.getElementById("d").value));
 		}
@@ -70,7 +73,7 @@ var Calculator = {
 	clearMem: function() {
 		// check if browser supports localStorage
 		if (hasLocalStorage()) {
-			localStorage.removeItem("memory");
+			localStorage.removeItem("CalculatorData");
 		}
 
 		// temporarily hold what was displayed
